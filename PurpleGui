@@ -100,7 +100,7 @@ local function renderPage(page)
         createScriptButton("Minecraft Tools", 60, "https://rawscripts.net/raw/Universal-Script-Minecraft-Tools-31506")    
         createScriptButton("ak-47", 110, "https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47")    
         createScriptButton("Grab Knife", 160, "https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753")    
-        createScriptButton("Xpress045 GUI", 210, "https://rawscripts.net/raw/Client-Replication-Xpress045-GUI-35134")    
+        createScriptButton("1x1x1x1 Gui", 210, "https://raw.githubusercontent.com/contactusRoblox404/1x1x1x1/refs/heads/main/1x1x1x1")    
 
     elseif page == 6 then    
         createScriptButton("Steve", 60, "https://rawscripts.net/raw/Universal-Script-Minecraft-Steve-38043")    
