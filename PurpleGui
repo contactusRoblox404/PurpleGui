@@ -75,7 +75,7 @@ local function renderPage(page)
     if page == 1 then    
         createScriptButton("Nameless", 60, "https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source")    
         createScriptButton("Infinite Yield", 110, "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")    
-        createScriptButton("MrPurple executor", 160, "https://raw.githubusercontent.com/contactusRoblox404/Backdoor-MrPurple/refs/heads/main/Backdoor-MrPurple")    
+        createScriptButton("Backdoor MrPurple", 160, "https://raw.githubusercontent.com/contactusRoblox404/Backdoor-MrPurple/refs/heads/main/Backdoor-MrPurple")    
         createScriptButton("Prison Life", 210, "https://rawscripts.net/raw/Prison-Life-Prizz-Life-33936")    
 
     elseif page == 2 then    
