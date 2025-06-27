@@ -103,7 +103,7 @@ local function renderPage(page)
         createScriptButton("1x1x1x1 purple gui", 210, "https://raw.githubusercontent.com/contactusRoblox404/1x1x1x1/refs/heads/main/1x1x1x1")    
 
     elseif page == 6 then    
-        createScriptButton("Steve", 60, "https://rawscripts.net/raw/Universal-Script-Minecraft-Steve-38043")    
+        createScriptButton("LaserGun", 60, "https://raw.githubusercontent.com/contactusRoblox404/LaserGun/refs/heads/main/LaserGun")    
         createScriptButton("McDonalds", 110, "https://rawscripts.net/raw/Universal-Script-Spooky-Scary-MCDonalds-Script-28270")    
         createScriptButton("John Doe", 160, "https://rawscripts.net/raw/Universal-Script-JOHN-DOE-GUI-40303")    
         createScriptButton("Dodge", 210, "https://rawscripts.net/raw/Universal-Script-Universal-FE-Sans-Dodge-40667")    
