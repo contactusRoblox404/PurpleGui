@@ -88,7 +88,7 @@ local function renderPage(page)
         createScriptButton("Telekinesis", 60, "https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty1.lua")    
         createScriptButton("Control NPC", 110, "https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty38.lua")    
         createScriptButton("Tptools", 160, "https://rawscripts.net/raw/Universal-Script-Tptools-41801")    
-        createScriptButton("Fe Control Tool", 210, "https://rawscripts.net/raw/Universal-Script-FE-TOOL-CONTROL-36949")    
+        createScriptButton("Plasma Shotgun", 210, "https://raw.githubusercontent.com/contactusRoblox404/Plasma-Shotgun/refs/heads/main/Plasma%20Shotgun")    
 
     elseif page == 4 then    
         createScriptButton("666", 60, "https://rawscripts.net/raw/Universal-Script-666-35960")    
