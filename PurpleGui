@@ -97,7 +97,7 @@ local function renderPage(page)
         createScriptButton("Fe Bypass", 210, "https://rawscripts.net/raw/Universal-Script-FE-BYPASS-Idk-work-or-not-40484")    
 
     elseif page == 5 then    
-        createScriptButton("Minecraft Tools", 60, "https://rawscripts.net/raw/Universal-Script-Minecraft-Tools-31506")    
+        createScriptButton("Fe SCP 096", 60, "https://rawscripts.net/raw/Universal-Script-FE-SCP-096-36948")    
         createScriptButton("ak-47", 110, "https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47")    
         createScriptButton("Grab Knife", 160, "https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753")    
         createScriptButton("1x1x1x1 purple gui", 210, "https://raw.githubusercontent.com/contactusRoblox404/1x1x1x1/refs/heads/main/1x1x1x1")    
