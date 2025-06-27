@@ -97,7 +97,7 @@ local function renderPage(page)
         createScriptButton("Fe Bypass", 210, "https://rawscripts.net/raw/Universal-Script-FE-BYPASS-Idk-work-or-not-40484")    
 
     elseif page == 5 then    
-        createScriptButton("Fe SCP 096", 60, "https://rawscripts.net/raw/Universal-Script-FE-SCP-096-36948")    
+        createScriptButton("FE SCP-096", 60, "https://rawscripts.net/raw/Universal-Script-FE-SCP-096-36948")    
         createScriptButton("ak-47", 110, "https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47")    
         createScriptButton("Grab Knife", 160, "https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753")    
         createScriptButton("1x1x1x1 purple gui", 210, "https://raw.githubusercontent.com/contactusRoblox404/1x1x1x1/refs/heads/main/1x1x1x1")    
@@ -105,7 +105,7 @@ local function renderPage(page)
     elseif page == 6 then    
         createScriptButton("LaserGun", 60, "https://raw.githubusercontent.com/contactusRoblox404/LaserGun/refs/heads/main/LaserGun")    
         createScriptButton("McDonalds", 110, "https://rawscripts.net/raw/Universal-Script-Spooky-Scary-MCDonalds-Script-28270")    
-        createScriptButton("John Doe", 160, "https://rawscripts.net/raw/Universal-Script-JOHN-DOE-GUI-40303")    
+        createScriptButton("C00lkidd", 160, "https://raw.githubusercontent.com/contactusRoblox404/C00lkidd/refs/heads/main/C00lkidd")    
         createScriptButton("Dodge", 210, "https://rawscripts.net/raw/Universal-Script-Universal-FE-Sans-Dodge-40667")    
 
     elseif page == 7 then    
