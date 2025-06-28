@@ -67,7 +67,7 @@ local function createScriptButton(name, yPos, scriptURL, optionalBeforeRun)
 end  
 
 local currentPage = 1  
-local totalPages = 8  
+local totalPages = 9  
 
 local function renderPage(page)  
     clearButtons()  
@@ -112,9 +112,15 @@ local function renderPage(page)
         createScriptButton("Btools", 60, "https://rawscripts.net/raw/Universal-Script-Btools-41524")    
         createScriptButton("ForceField", 110, "https://rawscripts.net/raw/Client-Replication-ForceField-script-fe-in-made-by-w000mkidd-29643")    
         createScriptButton("Hollow Purple", 160, "https://rawscripts.net/raw/Universal-Script-Temu-Hollow-Purple-36286")    
-        createScriptButton("RC7", 210, "https://raw.githubusercontent.com/contactusRoblox404/RC7/refs/heads/main/.gitignore")    
+        createScriptButton("RC7", 210, "https://raw.githubusercontent.com/contactusRoblox404/RC7/refs/heads/main/.gitignore")   
+ 
+elseif page == 8 then    
+        createScriptButton("Fe Chara", 60, "https://rawscripts.net/raw/Universal-Script-Psycho-Chara-use-an-reanimation-42989")    
+        createScriptButton("Giant Sword", 110, "https://rawscripts.net/raw/Universal-Script-TXT-UNIVERSAL-GIANT-X-SWORD-43287")    
+        createScriptButton("Invisible", 160, "https://raw.githubusercontent.com/khen791/script-khen/refs/heads/main/Fe%20Invisible.txt")    
+        createScriptButton("Nuke", 210, "https://rawscripts.net/raw/Universal-Script-TXT-NUKE-TOOL-43278")    
 
-    elseif page == 8 then    
+    elseif page == 9 then    
         local thankYouLabel = Instance.new("TextLabel")    
         thankYouLabel.Size = UDim2.new(1, 0, 1, -40)    
         thankYouLabel.Position = UDim2.new(0, 0, 0, 40)    
