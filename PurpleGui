@@ -67,7 +67,7 @@ local function createScriptButton(name, yPos, scriptURL, optionalBeforeRun)
 end  
 
 local currentPage = 1  
-local totalPages = 10  
+local totalPages = 11  
 
 local function renderPage(page)  
     clearButtons()  
@@ -124,9 +124,15 @@ elseif page == 9 then
         createScriptButton("Fe Shotgun", 60, "https://rawscripts.net/raw/Universal-Script-TXT-SNIPER-43274")    
         createScriptButton("Fe Guardian", 110, "https://rawscripts.net/raw/Universal-Script-TXT-Guardia-Yellow-43283")    
         createScriptButton("Fe Sword Red", 160, "https://rawscripts.net/raw/Universal-Script-TXT-KNIFE-RED-BIG-43286")    
-        createScriptButton("Fe Sans", 210, "https://rawscripts.net/raw/Universal-Script-TXT-SANS-CRAZY-RAINBOW-EDITION-43282")    
+        createScriptButton("Fe Sans", 210, "https://rawscripts.net/raw/Universal-Script-TXT-SANS-CRAZY-RAINBOW-EDITION-43282")  
 
-    elseif page == 10 then   
+elseif page == 10 then    
+        createScriptButton("Fe Magic", 60, "https://rawscripts.net/raw/Universal-Script-TXT-God-43319")    
+        createScriptButton("Fe DEV-UZI", 110, "https://rawscripts.net/raw/Universal-Script-TXT-DEV-UZI-43276")    
+        createScriptButton("Fe Axe", 160, "https://rawscripts.net/raw/Universal-Script-TXT-FIRE-AXE-43272")    
+        createScriptButton("Fe Sniper", 210, "https://rawscripts.net/raw/Universal-Script-TXT-L96A1-GUN-43273")     
+
+    elseif page == 11 then   
         local thankYouLabel = Instance.new("TextLabel")    
         thankYouLabel.Size = UDim2.new(1, 0, 1, -40)    
         thankYouLabel.Position = UDim2.new(0, 0, 0, 40)    
