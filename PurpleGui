@@ -94,7 +94,7 @@ local function renderPage(page)
         createScriptButton("666", 60, "https://raw.githubusercontent.com/contactusRoblox404/666/refs/heads/main/666")    
         createScriptButton("Killaura", 110, "https://raw.githubusercontent.com/contactusRoblox404/Killaura/refs/heads/main/Killaura")    
         createScriptButton("Ban Hammer", 160, "https://rawscripts.net/raw/Universal-Script-Ban-Hammer-33938")    
-        createScriptButton("Fe Bypass", 210, "https://rawscripts.net/raw/Universal-Script-FE-BYPASS-Idk-work-or-not-40484")    
+        createScriptButton("POLARIA", 210, "https://rawscripts.net/raw/Universal-Script-FE-POLARIA-43824")    
 
     elseif page == 5 then    
         createScriptButton("FE SCP-096", 60, "https://rawscripts.net/raw/Universal-Script-FE-SCP-096-36948")    
