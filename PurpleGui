@@ -67,7 +67,7 @@ local function createScriptButton(name, yPos, scriptURL, optionalBeforeRun)
 end  
 
 local currentPage = 1  
-local totalPages = 11  
+local totalPages = 12  
 
 local function renderPage(page)  
     clearButtons()  
@@ -132,7 +132,13 @@ elseif page == 10 then
         createScriptButton("Fe Axe", 160, "https://rawscripts.net/raw/Universal-Script-TXT-FIRE-AXE-43272")    
         createScriptButton("Fe Sniper", 210, "https://rawscripts.net/raw/Universal-Script-TXT-L96A1-GUN-43273")     
 
-    elseif page == 11 then   
+elseif page == 11 then    
+        createScriptButton("Fe Fighter", 60, "https://rawscripts.net/raw/Universal-Script-FE-Fighter-inspired-by-Gale-21557")    
+        createScriptButton("Fe Dominador", 110, "https://rawscripts.net/raw/Universal-Script-TXT-Dominador-Powers-43284")    
+        createScriptButton("Fe Saitama", 160, "https://rawscripts.net/raw/Universal-Script-TXT-saitama-43285")    
+        createScriptButton("Fe Baldi", 210, "https://raw.githubusercontent.com/contactusRoblox404/Baldi/refs/heads/main/Baldi")    
+
+    elseif page == 12 then   
         local thankYouLabel = Instance.new("TextLabel")    
         thankYouLabel.Size = UDim2.new(1, 0, 1, -40)    
         thankYouLabel.Position = UDim2.new(0, 0, 0, 40)    
