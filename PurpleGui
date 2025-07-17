@@ -67,7 +67,7 @@ local function createScriptButton(name, yPos, scriptURL, optionalBeforeRun)
 end  
 
 local currentPage = 1  
-local totalPages = 13  
+local totalPages = 14  
 
 local function renderPage(page)  
     clearButtons()  
@@ -105,7 +105,7 @@ local function renderPage(page)
     elseif page == 6 then    
         createScriptButton("LaserGun", 60, "https://raw.githubusercontent.com/contactusRoblox404/LaserGun/refs/heads/main/LaserGun")    
         createScriptButton("McDonalds", 110, "https://rawscripts.net/raw/Universal-Script-Spooky-Scary-MCDonalds-Script-28270")    
-        createScriptButton("C00lkidd", 160, "https://raw.githubusercontent.com/contactusRoblox404/C00lkidd/refs/heads/main/C00lkidd")    
+        createScriptButton("Spam Decal C00lkidd", 160, "https://raw.githubusercontent.com/contactusRoblox404/C00lkidd/refs/heads/main/C00lkidd")    
         createScriptButton("Dodge", 210, "https://rawscripts.net/raw/Universal-Script-Universal-FE-Sans-Dodge-40667")    
 
     elseif page == 7 then    
@@ -144,7 +144,13 @@ elseif page == 12 then
         createScriptButton("Bring Part", 160, "https://rawscripts.net/raw/Universal-Script-Bring-Parts-27586")    
         createScriptButton("Epik Dance", 210, "https://rawscripts.net/raw/Universal-Script-EPIK-DANCE-R6-43904")     
 
-    elseif page == 13 then   
+elseif page == 13 then    
+        createScriptButton("Noli", 60, "https://rawscripts.net/raw/Universal-Script-FE-Temu-Noli-Script-broken-idle-38315")    
+        createScriptButton("John Doe", 110, "https://rawscripts.net/raw/Universal-Script-forsaken-cript-builder-john-doe-script-40004")    
+        createScriptButton("C00lkidd", 160, "https://rawscripts.net/raw/Universal-Script-FE-C00lKidd-Forsaken-UNIVERSAL-FOR-R6-44107")    
+        createScriptButton("Lua Hammer", 210, "https://rawscripts.net/raw/Universal-Script-Lua-Hammer-Script-44008")    
+
+    elseif page == 14 then   
         local thankYouLabel = Instance.new("TextLabel")    
         thankYouLabel.Size = UDim2.new(1, 0, 1, -40)    
         thankYouLabel.Position = UDim2.new(0, 0, 0, 40)    
