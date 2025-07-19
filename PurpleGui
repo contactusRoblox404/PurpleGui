@@ -67,7 +67,7 @@ local function createScriptButton(name, yPos, scriptURL, optionalBeforeRun)
 end  
 
 local currentPage = 1  
-local totalPages = 15  
+local totalPages = 16  
 
 local function renderPage(page)  
     clearButtons()  
@@ -156,7 +156,13 @@ elseif page == 14 then
         createScriptButton("The Honored One", 160, "https://raw.githubusercontent.com/Cortzalno666/NectoVerse-Industries-Data/master/Scripts%20Folder/Honored.lua")    
         createScriptButton("KJ", 210, "https://gist.githubusercontent.com/lolidkwhy678/936fb6e7d9f16c516ed1d3e63133670b/raw/11ebffc379c1a23e7886dffa31625b3dc9558e32/loltesting")    
 
-    elseif page == 15 then   
+elseif page == 15 then    
+        createScriptButton("Fe Zombie", 60, "https://rawscripts.net/raw/Universal-Script-FE-ZOMBIE-plus-its-made-by-G10-43814")    
+        createScriptButton("Silly Neko", 110, "https://rawscripts.net/raw/Universal-Script-Fe-Silly-Neko-16736")    
+        createScriptButton("Ro-exploit 6.0", 160, "https://rawscripts.net/raw/Universal-Script-Uh-dk-8206")    
+        createScriptButton("Krystal Dance", 210, "https://rawscripts.net/raw/Universal-Script-KrystalDance3-X-c00lkidd-script-USE-Reanimated-script-44386")    
+
+    elseif page == 16 then   
         local thankYouLabel = Instance.new("TextLabel")    
         thankYouLabel.Size = UDim2.new(1, 0, 1, -40)    
         thankYouLabel.Position = UDim2.new(0, 0, 0, 40)    
