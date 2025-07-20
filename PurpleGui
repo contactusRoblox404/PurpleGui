@@ -180,7 +180,7 @@ elseif page == 18 then
         createScriptButton("Invincible Fly", 160, "https://raw.githubusercontent.com/396abc/Script/refs/heads/main/Fly.lua")    
         createScriptButton("KrystalDance x c00lkidd", 210, "https://rawscripts.net/raw/Universal-Script-KrystalDance3-X-c00lkidd-script-USE-Reanimated-script-44386")
 
-    elseif page == 18 then   
+    elseif page == 19 then   
         local thankYouLabel = Instance.new("TextLabel")    
         thankYouLabel.Size = UDim2.new(1, 0, 1, -40)    
         thankYouLabel.Position = UDim2.new(0, 0, 0, 40)    
