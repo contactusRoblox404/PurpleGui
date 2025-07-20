@@ -67,7 +67,7 @@ local function createScriptButton(name, yPos, scriptURL, optionalBeforeRun)
 end  
 
 local currentPage = 1  
-local totalPages = 18  
+local totalPages = 19  
 
 local function renderPage(page)  
     clearButtons()  
@@ -173,6 +173,12 @@ elseif page == 17 then
         createScriptButton("Firebrand Sword", 110, "https://rawscripts.net/raw/Universal-Script-Linked-Sword-R6-Script-40329")    
         createScriptButton("Fe Seraphic Blade", 160, "https://pastefy.app/59mJGQGe/raw")    
         createScriptButton("Pickaxe", 210, "https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Minecraft%20Tools")   
+
+elseif page == 18 then    
+        createScriptButton("Fe Backfilp", 60, "https://raw.githubusercontent.com/contactusRoblox404/Fe-Backfilp/refs/heads/main/Fe%20Backfilp")    
+        createScriptButton("Spawner Dummy", 110, "https://raw.githubusercontent.com/sigmaboy123z/MYFRIENDSCRIPT/refs/heads/main/MYNEWFRIENDSPAWNER")    
+        createScriptButton("Invincible Fly", 160, "https://raw.githubusercontent.com/396abc/Script/refs/heads/main/Fly.lua")    
+        createScriptButton("KrystalDance x c00lkidd", 210, "https://rawscripts.net/raw/Universal-Script-KrystalDance3-X-c00lkidd-script-USE-Reanimated-script-44386")
 
     elseif page == 18 then   
         local thankYouLabel = Instance.new("TextLabel")    
