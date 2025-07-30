@@ -67,7 +67,7 @@ local function createScriptButton(name, yPos, scriptURL, optionalBeforeRun)
 end  
 
 local currentPage = 1  
-local totalPages = 19  
+local totalPages = 20  
 
 local function renderPage(page)  
     clearButtons()  
@@ -160,7 +160,7 @@ elseif page == 15 then
         createScriptButton("Fe Zombie", 60, "https://rawscripts.net/raw/Universal-Script-FE-ZOMBIE-plus-its-made-by-G10-43814")    
         createScriptButton("Silly Neko", 110, "https://rawscripts.net/raw/Universal-Script-Fe-Silly-Neko-16736")    
         createScriptButton("Ro-exploit 6.0", 160, "https://rawscripts.net/raw/Universal-Script-Uh-dk-8206")    
-        createScriptButton("Krystal Dance", 210, "https://rawscripts.net/raw/Just-a-baseplate.-Krystal-Tool-Dance-V3-By-Theo-45046")    
+        createScriptButton("Krystal Tool Dance", 210, "https://rawscripts.net/raw/Just-a-baseplate.-Krystal-Tool-Dance-V3-By-Theo-45046")    
 
 elseif page == 16 then    
         createScriptButton("sonic.exe", 60, "https://raw.githubusercontent.com/contactusRoblox404/Sonic.exe/refs/heads/main/Sonic.exe")    
@@ -180,7 +180,13 @@ elseif page == 18 then
         createScriptButton("Invincible Fly", 160, "https://raw.githubusercontent.com/396abc/Script/refs/heads/main/Fly.lua")    
         createScriptButton("KrystalDance x c00lkidd", 210, "https://rawscripts.net/raw/Universal-Script-KrystalDance3-X-c00lkidd-script-USE-Reanimated-script-44386")
 
-    elseif page == 19 then   
+elseif page == 19 then    
+        createScriptButton("Fake Lag", 60, "https://rawscripts.net/raw/Universal-Script-Fake-lag-41217")    
+        createScriptButton("Spider-Man", 110, "https://raw.githubusercontent.com/contactusRoblox404/Spider-Man/refs/heads/main/Spider-Man")    
+        createScriptButton("Portal Gun", 160, "https://raw.githubusercontent.com/contactusRoblox404/Portal-Gun/refs/heads/main/Portal%20Gun")    
+        createScriptButton("Death Note", 210, "https://rawscripts.net/raw/Universal-Script-Death-Note-20690")    
+
+    elseif page == 20 then   
         local thankYouLabel = Instance.new("TextLabel")    
         thankYouLabel.Size = UDim2.new(1, 0, 1, -40)    
         thankYouLabel.Position = UDim2.new(0, 0, 0, 40)    
