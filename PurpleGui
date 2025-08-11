@@ -160,7 +160,7 @@ elseif page == 15 then
         createScriptButton("Fe Zombie", 60, "https://rawscripts.net/raw/Universal-Script-FE-ZOMBIE-plus-its-made-by-G10-43814")    
         createScriptButton("Silly Neko", 110, "https://rawscripts.net/raw/Universal-Script-Fe-Silly-Neko-16736")    
         createScriptButton("Ro-exploit 6.0", 160, "https://rawscripts.net/raw/Universal-Script-Uh-dk-8206")    
-        createScriptButton("Hat Hub", "https://rawscripts.net/raw/Just-a-baseplate.-Hat-Hub-44944")    
+        createScriptButton("Hat Hub", 210, "https://rawscripts.net/raw/Just-a-baseplate.-Hat-Hub-44944")    
 
 elseif page == 16 then    
         createScriptButton("sonic.exe", 60, "https://raw.githubusercontent.com/contactusRoblox404/Sonic.exe/refs/heads/main/Sonic.exe")    
